@@ -43,16 +43,51 @@ diseases = {
     'P6': 'Cob Borer'
 }
 
-# Function to perform disease inference
+# Define rules as a list of tuples (condition, disease)
+rules = [
+    ('G1', 'P1'),
+    ('G2', 'P1'),
+    ('G3', 'P1'),
+    ('G4', 'P1'),
+    ('G5', 'P1'),
+    ('G5', 'P2'),
+    ('G6', 'P2'),
+    ('G7', 'P2'),
+    ('G8', 'P2'),
+    ('G9', 'P2'),
+    ('G10', 'P2'),
+    ('G11', 'P3'),
+    ('G12', 'P3'),
+    ('G13', 'P3'),
+    ('G14', 'P3'),
+    ('G15', 'P4'),
+    ('G16', 'P4'),
+    ('G17', 'P4'),
+    ('G18', 'P4'),
+    ('G19', 'P4'),
+    ('G20', 'P5'),
+    ('G21', 'P5'),
+    ('G22', 'P5'),
+    ('G23', 'P5'),
+    ('G24', 'P5'),
+    ('G25', 'P5'),
+    ('G26', 'P5'),
+    ('G27', 'P5'),
+    ('G28', 'P6'),
+    ('G29', 'P6'),
+    ('G30', 'P6'),
+    ('G31', 'P6'),
+]
+
+# Function to perform disease inference using forward chaining
 def infer_disease(selected_symptoms):
-    # Count how many times each disease (P1-P6) is matched
     disease_count = {disease: 0 for disease in diseases}
     
+    # Iterate through each symptom to check against rules
     for symptom in selected_symptoms:
-        if symptom in corn_disease_symptoms:
-            for disease, is_present in corn_disease_symptoms[symptom].items():
-                if is_present:
-                    disease_count[disease] += 1
+        for condition, disease in rules:
+            if symptom == condition and corn_disease_symptoms[symptom][disease]:
+                disease_count[disease] += 1
     
     # Determine diseases that match more than 3 symptoms
     matched_diseases = [disease for disease, count in disease_count.items() if count >= 3]
