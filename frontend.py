@@ -59,7 +59,7 @@ root = tk.Tk()
 root.title("Corn Disease Diagnosis")
 
 # Kolom 1: Listbox untuk memilih gejala
-tk.Label(root, text="Pilih Gejala (G1-G31)").grid(row=0, column=0)
+tk.Label(root, text="Choose Symptoms (G1-G31)").grid(row=0, column=0)
 symptom_listbox = tk.Listbox(root, selectmode="multiple", height=15, width=25)
 
 for symptom_code in symptoms.keys():
@@ -68,7 +68,7 @@ for symptom_code in symptoms.keys():
 symptom_listbox.grid(row=1, column=0, padx=10, pady=10)
 
 # Kolom 2: Menampilkan deskripsi gejala yang dipilih
-tk.Label(root, text="Penjelasan Gejala").grid(row=0, column=1)
+tk.Label(root, text="Symptoms Description").grid(row=0, column=1)
 description_textbox = tk.Text(root, height=15, width=50)
 description_textbox.grid(row=1, column=1, padx=10, pady=10)
 
@@ -85,7 +85,7 @@ def update_description(event):
 symptom_listbox.bind('<<ListboxSelect>>', update_description)
 
 # Tombol 'Periksa'
-check_button = tk.Button(root, text="Periksa", command=check_disease)
+check_button = tk.Button(root, text="Check", command=check_disease)
 check_button.grid(row=2, column=0, columnspan=2, pady=10)
 
 # Menjalankan aplikasi Tkinter
