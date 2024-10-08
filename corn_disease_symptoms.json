@@ -1,0 +1,250 @@
+{
+    "G1": {
+        "P1": true,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G2": {
+        "P1": true,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G3": {
+        "P1": true,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G4": {
+        "P1": true,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G5": {
+        "P1": true,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G6": {
+        "P1": false,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G7": {
+        "P1": false,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G8": {
+        "P1": false,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G9": {
+        "P1": false,
+        "P2": true,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G10": {
+        "P1": false,
+        "P2": true,
+        "P3": true,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G11": {
+        "P1": false,
+        "P2": false,
+        "P3": true,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G12": {
+        "P1": false,
+        "P2": false,
+        "P3": true,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G13": {
+        "P1": false,
+        "P2": false,
+        "P3": true,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G14": {
+        "P1": false,
+        "P2": false,
+        "P3": true,
+        "P4": false,
+        "P5": false,
+        "P6": false
+    },
+    "G15": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": true,
+        "P5": false,
+        "P6": false
+    },
+    "G16": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": true,
+        "P5": false,
+        "P6": false
+    },
+    "G17": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": true,
+        "P5": false,
+        "P6": false
+    },
+    "G18": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": true,
+        "P5": false,
+        "P6": false
+    },
+    "G19": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": true,
+        "P5": false,
+        "P6": false
+    },
+    "G20": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": true,
+        "P6": false
+    },
+    "G21": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": true,
+        "P6": false
+    },
+    "G22": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": true,
+        "P6": false
+    },
+    "G23": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": true,
+        "P6": false
+    },
+    "G24": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": true,
+        "P6": false
+    },
+    "G25": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": true,
+        "P6": false
+    },
+    "G26": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": true,
+        "P6": false
+    },
+    "G27": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": true,
+        "P6": false
+    },
+    "G28": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true
+    },
+    "G29": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true
+    },
+    "G30": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true
+    },
+    "G31": {
+        "P1": false,
+        "P2": false,
+        "P3": false,
+        "P4": false,
+        "P5": false,
+        "P6": true
+    }
+}
