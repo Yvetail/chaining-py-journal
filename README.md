@@ -6,7 +6,7 @@
 * Users can configure it according to their needs.
 * This project is created to fulfill the assignment for the expert system course.
 
-## Indonesia Language
+## Indonesian Language
 * Pengguna yang mendownload dan ingin mencoba dapat menggunakan file frontend.py sebagai main untuk menjalankan program
 * Program ini dibangun atas dasar penggunaan jurnal sebagai knowledge base
 * Pengguna dapat mengkonfigurasi sesuai dengan kebutuhan
