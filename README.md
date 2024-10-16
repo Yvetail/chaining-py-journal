@@ -1,4 +1,4 @@
-# chaining-py-journal
+# chaining-py-journal  ~  Forward Chaining Implementation
 
 ## English Language
 * Users who download and want to try can use the frontend.py file as the main entry point to run the program.
